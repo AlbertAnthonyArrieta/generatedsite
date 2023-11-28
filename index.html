@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Ice Cream Shop</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Add gradient backgrounds to ice cream items */
+    .ice-cream-item:nth-child(odd) {
+      background: linear-gradient(to bottom right, #ff1493, #00ced1);
+    }
+
+    .ice-cream-item:nth-child(even) {
+      background: linear-gradient(to bottom right, #00ff7f, #ff00ff);
+    }
+  </style>
+</head>
+<body>
+  <aside class="vertical-navbar">
+    <h1 class="logo">MELTING SCOOPS</h1>
+    <nav>
+      <ul>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#home">HOME</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main>
+    <section id="menu" class="menu">
+      <h2 style="color: red;">ICE CREAM MENU</h2>
+      <div class="ice-cream-item" style="order: 2;">
+        <div class="item-image" style="background-image: url('vanilla.jpg'); width: 500px; height: 300px;"></div>
+        <div class="item-info" style="background-color: #ff9999; transform: rotate(10deg); margin-left: 50px;">
+          <h3>VANILLA</h3>
+          <p style="font-size: 20px;">Ingredients: Cream, sugar, vanilla extract</p>
+          <p>Description: Our classic vanilla ice cream made with the finest ingredients.</p>
+          <p>Price: $4.99</p>
+        </div>
+      </div>
+      <div class="ice-cream-item" style="order: 3;">
+        <div class="item-info" style="background-color: #ccffcc; transform: rotate(-5deg); margin-right: 100px;">
+          <h3>CHOCOLATE</h3>
+          <p>Ingredients: Cocoa, cream, sugar</p>
+          <p>Description: Rich and creamy chocolate ice cream for chocolate lovers.</p>
+          <p>Price: $5.49</p>
+        </div>
+        <div class="item-image" style="background-image: url('chocolate.jpg'); width: 400px; height: 250px;"></div>
+      </div>
+      <!-- More ice cream items with hard color gradients -->
+    </section>
+    
+    <section id="about" class="about" style="text-align: center; background-color: #ffff99; padding: 50px;">
+      <h2>About Us</h2>
+      <p style="font-size: 24px;">We love ice cream! Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </section>
+
+    <section id="contact" class="contact" style="margin-top: 30px; padding: 20px; background-color: #ffccff; text-align: center;">
+      <h2>Contact Us</h2>
+      <p>Email: example@example.com</p>
+      <p>Phone: 123-456-7890</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

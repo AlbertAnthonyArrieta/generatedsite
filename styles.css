@@ -1,0 +1,25 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #ff1493, #00ced1);
+    color: #fff;
+    line-height: 1.6;
+    display: flex;
+  }
+  
+  .vertical-navbar {
+    background: linear-gradient(to bottom, #00ff7f, #00ced1);
+    padding: 20px;
+    width: 200px;
+  }
+  
+  /* Add more chaotic styles as desired */
+  
